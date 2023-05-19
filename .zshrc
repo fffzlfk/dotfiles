@@ -58,13 +58,11 @@ export PATH=$PATH:/usr/local/lib/nodejs/node-v18.12.1-linux-x64/bin
 
 export PATH=$PATH:/usr/local/cuda/bin
 
-alias ls='exa'
-alias la='exa -a'
-alias ll='exa -lh'
-alias ls='exa'
-alias ll='exa -lh'
-alias la='exa -lah'
-alias lr='exa -lR'
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
 
 alias cat='bat -p'
 
