@@ -46,6 +46,7 @@ zinit ice as"command" from"gh-r" atclone"./starship init zsh > init.zsh; ./stars
 zinit light starship/starship
 ### zinit init end
 
+export all_proxy=https://192.168.0.103:7890
 export http_proxy=http://192.168.0.103:7890
 export https_proxy=http://192.168.0.103:7890
 
@@ -59,7 +60,7 @@ export PATH=$PATH:/usr/local/lib/nodejs/node-v18.12.1-linux-x64/bin
 export PATH=$PATH:/usr/local/cuda/bin
 
 alias ls='lsd'
-alias l='ls -l'
+alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
@@ -68,6 +69,8 @@ alias cat='bat -p'
 
 alias vim=nvim
 alias vi=nvim
+
+alias cloc=tokei
 
 # znbase build
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build/lib
