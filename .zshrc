@@ -66,12 +66,8 @@ alias lt='ls --tree'
 
 alias cat='bat -p'
 
-alias nvim=$HOME/.local/bin/lvim
 alias vim=nvim
 alias vi=nvim
-
-export EDITOR=$HOME/.local/bin/lvim
-export VISUAL=$HOME/.local/bin/lvim
 
 # znbase build
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build/lib
