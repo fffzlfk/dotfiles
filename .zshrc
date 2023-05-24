@@ -69,8 +69,15 @@ alias cat='bat -p'
 
 alias vim=nvim
 alias vi=nvim
+alias vimf='vim $(fzf)'
 
 alias cloc=tokei
+
+alias ra=joshuto
+
+alias lg=lazygit
+
+alias npm=cnpm
 
 # znbase build
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build/lib
