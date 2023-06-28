@@ -46,9 +46,9 @@ zinit ice as"command" from"gh-r" atclone"./starship init zsh > init.zsh; ./stars
 zinit light starship/starship
 ### zinit init end
 
-export all_proxy=https://192.168.0.103:7890
-export http_proxy=http://192.168.0.103:7890
-export https_proxy=http://192.168.0.103:7890
+# export all_proxy=https://127.0.0.1:7890
+# export http_proxy=http://127.0.0.1:7890
+# export https_proxy=http://127.0.0.1:7890
 
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=/home/fffzlfk/go
@@ -58,6 +58,9 @@ export PATH=$PATH:/home/fffzlfk/.local/bin
 export PATH=$PATH:/usr/local/lib/nodejs/node-v18.12.1-linux-x64/bin
 
 export PATH=$PATH:/usr/local/cuda/bin
+
+source /etc/profile.d/clash.sh
+proxy_on
 
 alias ls='lsd'
 alias ll='ls -l'
@@ -87,6 +90,12 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/kwbasedb
 export NODE_OPTIONS=--openssl-legacy-provider
 
 bindkey -v
+
+nd()
+{
+  mkdir -p -- "$1" &&
+  cd -P -- "$1"
+}
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
