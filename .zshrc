@@ -89,6 +89,8 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/kwbasedb/build
 export NODE_OPTIONS=--openssl-legacy-provider
 
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+
 bindkey -v
 
 nd()
