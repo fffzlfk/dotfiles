@@ -83,11 +83,11 @@ alias lg=lazygit
 alias npm=cnpm
 
 # znbase build
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build/lib
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/kwbasedb/build/lib
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/kwbasedb/build
-export NODE_OPTIONS=--openssl-legacy-provider
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build/lib
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/kwbasedb/build/lib
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/kwbasedb/build
+# export NODE_OPTIONS=--openssl-legacy-provider
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
