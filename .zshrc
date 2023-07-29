@@ -59,8 +59,8 @@ export PATH=$PATH:/usr/local/lib/nodejs/node-v18.12.1-linux-x64/bin
 
 export PATH=$PATH:/usr/local/cuda/bin
 
-source /etc/profile.d/clash.sh
-proxy_on
+# source /etc/profile.d/clash.sh
+# proxy_on
 
 alias ls='lsd'
 alias ll='ls -l'
@@ -81,6 +81,8 @@ alias ra=joshuto
 alias lg=lazygit
 
 alias npm=cnpm
+
+export EDITOR=nvim
 
 # znbase build
 # export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/fffzlfk/go/src/github.com/znbasedb/build/lib
