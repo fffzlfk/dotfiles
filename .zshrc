@@ -67,19 +67,13 @@ alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
-
 alias cat='bat -p'
-
 alias vim=nvim
 alias vi=nvim
 alias vimf='vim $(fzf)'
-
 alias cloc=tokei
-
 alias ra=joshuto
-
 alias lg=lazygit
-
 alias npm=cnpm
 
 export EDITOR=nvim
